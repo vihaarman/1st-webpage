@@ -1,0 +1,155 @@
+
+body {
+  margin: 0;
+  font-family: 'Merriweather', serif;
+  text-align: center;
+  color:#40514E;
+}
+
+.woman {
+  display: block;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  width: 10%;
+}
+.hello-there{
+  width: 30%;
+  margin: auto;
+  line-height: 2;
+  margin-bottom: 40px;
+
+  text-justify: inter-word;
+
+}
+.web-Design {
+  width: 50%;
+  margin: 50px auto 50px auto; /* to center something you set margin to auto*/
+  text-align: center;
+  line-height: 2;
+  text-justify: inter-word;
+}
+
+.myButton {
+  background-color:#66BFBF;
+	border-radius:28px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+  margin: 70px;
+  align: center;
+}
+.myButton:hover {
+	background-color:#66BFBF;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto; /* to center something you set margin to auto*/
+  text-align: left;
+  line-height: 2;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.skills {
+  width: 45%;
+  float:left;
+  margin-right: 30px;
+
+}
+.skills-two {
+  width: 45%;
+  float: right;
+  margin-left: 30px;
+}
+.my-skills {
+  margin-top: 40px;
+}
+
+h1 {
+  color: #66BFBF;
+  font-size: 5.625rem; /*** recommended sizing option: REM, because it ignores other previous configurations already applied***/
+  font-family: 'Sacramento', cursive;
+  line-height: 2;
+  margin: 50px auto 0 auto;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  position: relative;
+  color: #11999E;
+}
+
+.top-container {
+  padding-top: 100px;
+  background-color: #EAF6F6;
+}
+.bottom-container {
+background-color: #66BFBF;
+padding: 20px 0 60px 0;
+}
+
+.pro {
+  text-decoration: underline;
+  font-weight: normal;
+}
+.botton-cloud {
+  position: absolute;
+  left: 250px;
+  botton: 300px;
+}
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.footer-link {     /* here I could also have just used the "a" of anchor tag, instead of "footer-link"*/
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+.footer-link:hover {
+  color: #EAF6F6;
+}
+
+.end {
+  color:#EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.contact-message {
+  width: 30%;
+  margin:40px auto 60px;
+  line-height: 2;
+  margin-bottom: 40px;
+  text-justify: inter-word;
+}
+
+hr {
+ border-style: none;
+ border-top-style: dotted;
+ border-color: #EAF6F6;
+ border-width: 8px;
+ width: 6%;
+}
